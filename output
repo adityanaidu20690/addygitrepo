@@ -1,0 +1,30 @@
+#!/bin/bash
+#a=aditya
+#b=naidu
+#c=chintu
+
+#echo "my name is $a"
+#echo "my surname is $b"
+#echo "my petname is $c"
+
+#echo
+#echo "my name is addy"
+#echo
+#echo 
+#echo "What is your name?"
+#echo
+#echo
+#read addycont
+#echo
+#echo
+#echo "hello $addycont"i
+
+a=`hostname`
+echo "hello, my server name is $a"
+echo
+echo "what is your name?"
+read b
+echo
+echo
+echo hello $b
+echo

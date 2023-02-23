@@ -1,0 +1,8 @@
+#!/bin/bash
+ping -c3 192.168.61.233
+  if [ $? -eq 0 ]
+  then
+  echo ok
+  else
+  echo not ok
+  fi

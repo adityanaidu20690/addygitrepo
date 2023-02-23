@@ -1,0 +1,12 @@
+#!/bin/bash
+echo
+echo "my name is aditya"
+echo
+echo "what is your name?"
+echo 
+echo
+read cont
+echo
+echo
+echo "you can call me $cont"
+echo

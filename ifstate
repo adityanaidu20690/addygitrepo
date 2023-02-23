@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ -e /var/lib/jenkins/workspace/workspaces.txt ]
+  then
+  echo "file is available"
+  else
+  echo "file do not exsist"
+fi

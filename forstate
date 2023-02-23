@@ -1,0 +1,7 @@
+#!/bin/bash
+#for i in 1 2 3 4 5
+#for i in eat jump play cry fight
+for i in {1..100}
+do 
+echo "welcome $i"
+done

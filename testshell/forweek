@@ -1,0 +1,7 @@
+#!/bin/bash
+echo
+week=1
+for i in sun mon tue wed thu fri sat
+do
+ echo the week is $((week++)) are $i
+done

@@ -1,0 +1,16 @@
+#!/bin/bash
+echo
+echo "a= find date"
+echo
+echo "b= find disk space"
+echo
+read option
+    case $option in
+
+a) date;;
+b) df -Th;;
+*) bye bye
+
+ esac
+   
+
