@@ -1,0 +1,21 @@
+---
+ - name: execution task
+   hosts: localhost
+
+   tasks:
+    - name: ping to local host
+      ping:
+    - name: Display the given word
+      debug: msg=Aditya
+    - name: install git to the host
+      yum:
+       name: git
+       state: present
+    - name: install httpd service
+      yum:
+       name: httpd
+       state: present
+    - name: start the httpd service
+      service:
+        name: httpd
+        state: started
