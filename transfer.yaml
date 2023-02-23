@@ -1,0 +1,12 @@
+---
+- name: transfer file
+  hosts: all
+
+  tasks:
+   - name: copy file
+     copy:
+      src: /index.html
+      dest: /var/www/html/ 
+      owner: root
+      group: root
+

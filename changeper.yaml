@@ -1,0 +1,9 @@
+---
+- name: change file permission
+  hosts: all
+
+  tasks:
+    - name: change permission to read and write
+      file:
+       path: /test
+       mode: a+rw  

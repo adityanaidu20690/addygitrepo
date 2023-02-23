@@ -1,0 +1,10 @@
+---
+- name: execute shell script
+  hosts: all
+  tasks:
+  - name: changing permission
+    file:
+     path: /addy/test.sh
+     mode: u+x
+  - name: test.sh file ex
+    shell: "/addy/test.sh"
